@@ -1,0 +1,237 @@
+html, body {
+    width: 664px;
+    height: auto;
+}
+.SmallText {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-size: 15pt;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 8px;
+    bottom: 0px;
+    margin-left: 35px;
+    margin-top: 11px;
+    color: black;
+}
+.SmallAppleLogo {
+    height: 19px;
+    width: 19px;
+    margin-top: 3px;
+    margin-left: 5px;
+    position: fixed;
+    top: 8px;
+    left: 7px;
+}
+.iCloudButton {
+    font-style: normal;
+    height: 30px;
+    width: 35px;
+    position: fixed;
+    left: 1210px;
+    bottom: 547px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size: 20pt;
+    border-color: transparent;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.iCloudButton:hover {
+    background-color: rgb(231, 227, 227);
+    cursor: pointer;
+}
+.MainMenu {
+    font-size: 22pt;
+    height: 600px;
+    width: 640px;
+    margin-left: 300px;
+    border-radius: 34px;
+    background-color: white;
+    margin-top: 88px;
+    margin-bottom: 160px;
+    box-shadow: 0px 10px 10px 15px rgb(236, 235, 235);
+    text-align: center;
+    color: black;
+    position: static;
+    z-index: 1;
+
+}
+.signin {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    z-index: 2;
+    position: absolute;
+    top: 310px;
+    left: 480px;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(251, 251, 253);
+    z-index: 1;
+}
+
+.ColorfulPicture {
+    width: 160px;
+    height: 160px;
+    z-index: 2;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 540px;
+}
+
+.textfield {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-size: 13pt;
+    font-stretch: condensed;
+    padding-left: 16px;
+    width: 460px;
+    height: 50px;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 12px;
+    border-width: 1px;
+    position: absolute;
+    top: 380px;
+    left: 390px;
+}
+
+.textfield:focus {
+    box-shadow: 0px 0px 0px 6px cornflowerblue;
+}
+
+.keepsignin {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-size: 13pt;
+    color: rgb(96, 96, 96);
+    position: absolute;
+    top:550px;
+    left:540px;
+    
+}
+
+.arrow_button {
+    height: 37px;
+    width: 43px;
+    position: absolute;
+    top: 390px;
+    left: 820px;
+}
+.arrow_button:hover {
+    cursor: text;
+}
+
+.smallText2 {
+    font-size: 10pt;
+    text-decoration-style: hidden;
+    font: weight 500px;
+    position: absolute;
+    top: 600px;
+    left: 530px;
+}
+
+.smallText3 {
+    font-size: 10pt;
+    text-decoration-style: hidden;
+    font: weight 500px;
+    position: absolute;
+    top: 630px;
+    left: 572px;
+}
+
+.bluetext a:link {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    color: rgb(91, 143, 219);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .bluetext a:visited {
+    color: rgb(91, 143, 219);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .bluetext a:hover {
+    color: rgb(91, 143, 219);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .bluetext a:active {
+    color: rgb(91, 143, 219);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  footer {
+    background-color:rgb(245, 245, 247);
+    height: 80px;
+    width: 100%;
+    position:absolute;
+  }
+
+  .graytext a:link {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    color: rgb(96, 96, 96);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .graytext a:visited {
+    color: rgb(96, 96, 96);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .graytext a:hover {
+    color: rgb(96, 96, 96);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .graytext a:active {
+    color: rgb(96, 96, 96);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .smallText4 {
+    font-size: 8pt;
+    position: absolute;
+    top: 34px;
+    left: 110px;
+  }
+  .smallText5 {
+    font-size: 8pt;
+    position: absolute;
+    top: 34px;
+    left: 210px;
+  }
+  .smallText6 {
+    font-size: 8pt;
+    position: absolute;
+    top: 34px;
+    left: 300px;
+  }
+  .copyright {
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-size: 9pt;
+    color: rgb(96, 96, 96);
+    position: absolute;
+    top: 22px;
+    left: 900px;
+  }
+.line1 {
+    position: absolute;
+    top: 874px;
+    left: 190px;
+    width: 24px;
+    height: 28px;
+}
+.line2 {
+    position: absolute;
+    top: 874px;
+    left: 285px;
+    width: 24px;
+    height: 28px;
+}
